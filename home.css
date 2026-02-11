@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  background: #111;   
+  gap: 30px;
+}
+
+.head a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+section {
+  padding: 80px 20px;
+  min-height: 500px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.box{
+    border: 5px  ;
+ background-color: rgb(94, 174, 235);
+ border-radius: 5px;
+  padding: 10px;
+  width: 50px;
+}
+.box2{
+ border: 5px  ;
+ background-color: rgb(94, 174, 235);
+ border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+}
+.box3{
+ border: 5px  ;
+ background-color: rgb(94, 174, 235);
+ border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+}
+.box4{
+ border: 5px  ;
+ background-color: rgb(94, 174, 235);
+ border-radius: 5px;
+  padding: 10px;
+  width: 90px;
+}
+.skill{
+    display: flex;
+    gap: 30px;
+}
+.abt{
+   align-content: center;
+   background-attachment: fixed;
+   /* background-image: url(photo-1507608158173-1dcec673a2e5.avif);
+   background-repeat: no-repeat ;
+   background-size: cover; */
+   background-color: beige;
+   justify-items: center;
+   height: 700px;
+   
+   }
+   .ab{
+    font-size: 30px;
+   }
+   .insta{
+    border-radius: 30px ;
+    width: 60px;
+}
+img:hover{
+    transform: scale(1.1);
+}
